@@ -21,4 +21,11 @@
         android:layout_height="wrap_content"
         android:text="이것은 버튼입니다."
         android:background="#ffdd"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이것은 버튼입니다."
+        android:background="#ffdd"/>
+    
 </LinearLayout>
