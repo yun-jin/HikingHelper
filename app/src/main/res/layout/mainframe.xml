@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@android:id/tabhost"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TabWidget
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@android:id/tabs"
+            android:layout_weight="1">
+        </TabWidget>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff00dd"
+            android:id="@+id/tabRecommendation"
+            android:layout_weight="9">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffdd"
+            android:id="@+id/tabWeather"
+            android:layout_weight="9">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0"
+            android:id="@+id/tabRestaurant"
+            android:layout_weight="9">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000ff"
+            android:id="@+id/tabReview"
+            android:layout_weight="9">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00dd00"
+            android:id="@+id/tabCurrentMyHikingStatus"
+            android:layout_weight="9">
+        </FrameLayout>
+
+    </LinearLayout>
+
+</TabHost>
